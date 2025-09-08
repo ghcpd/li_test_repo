@@ -145,8 +145,8 @@ def read_known(path: str) -> Set[Tuple[str, str, str, str, str, str, str]]:
         s2 = item["conflict_schedule"]
         a1 = item["activity_1"]
         a2 = item["activity_2"]
-        st1, en1 = [x.strip() for x in s1.split("-")]
-        st2, en2 = [x.strip() for x in s2.split("-")]
+        st1, en1 = [x.strip() for x in s1.split(" - ")]
+        st2, en2 = [x.strip() for x in s2.split(" - ")]
         d1s = datetime.strptime(st1, "%Y-%m-%d %H:%M")
         d2s = datetime.strptime(st2, "%Y-%m-%d %H:%M")
         # Normalize order

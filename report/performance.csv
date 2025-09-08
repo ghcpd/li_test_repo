@@ -1,0 +1,4 @@
+algorithm,exec_time_ms,peak_memory_bytes,precision,recall,f1
+bruteforce,1159.378,1169912,0.3717,0.8888,0.5242
+sweepline,66.261,1182808,0.3717,0.8888,0.5242
+intervaltree,143.698,1179552,0.3717,0.8888,0.5242

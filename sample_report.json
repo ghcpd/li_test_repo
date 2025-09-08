@@ -1,0 +1,75 @@
+{
+  "total_errors": 4,
+  "total_warnings": 3,
+  "dates": {
+    "2025-09-08": {
+      "errors": {
+        "total": 3,
+        "messages": [
+          {
+            "message": "Connection refused to database server",
+            "count": 1,
+            "explanation": "The target service refused the connection; it may be down, unreachable, or blocked by a firewall."
+          },
+          {
+            "message": "File not found: /var/data/input.csv",
+            "count": 1,
+            "explanation": "The requested resource or file could not be found."
+          },
+          {
+            "message": "Timeout while connecting to API endpoint",
+            "count": 1,
+            "explanation": "The operation timed out, possibly due to network latency or an unresponsive service."
+          }
+        ]
+      },
+      "warnings": {
+        "total": 2,
+        "messages": [
+          {
+            "message": "Disk space low on /dev/sda1",
+            "count": 1,
+            "explanation": "An error or warning was logged. Investigate the message and context for root cause."
+          },
+          {
+            "message": "Rate limit exceeded for user requests",
+            "count": 1,
+            "explanation": "The service rate limit was exceeded due to too many requests in a short period."
+          }
+        ]
+      }
+    },
+    "2025-09-09": {
+      "errors": {
+        "total": 0,
+        "messages": []
+      },
+      "warnings": {
+        "total": 1,
+        "messages": [
+          {
+            "message": "Authentication failed for user 'alice'",
+            "count": 1,
+            "explanation": "Authentication failed due to invalid or missing credentials."
+          }
+        ]
+      }
+    },
+    "unknown_date": {
+      "errors": {
+        "total": 1,
+        "messages": [
+          {
+            "message": "something bad happened",
+            "count": 1,
+            "explanation": "An error or warning was logged. Investigate the message and context for root cause."
+          }
+        ]
+      },
+      "warnings": {
+        "total": 0,
+        "messages": []
+      }
+    }
+  }
+}

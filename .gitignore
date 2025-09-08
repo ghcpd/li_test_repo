@@ -1,0 +1,4 @@
+# Ignore Python cache and reports
+__pycache__/
+*.pyc
+report/

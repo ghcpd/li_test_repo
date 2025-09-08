@@ -1,0 +1,1 @@
+Note: The file sample_report.json is a generated artifact for demonstration and should not be committed. A .gitignore entry has been added to ignore JSON report files by default.

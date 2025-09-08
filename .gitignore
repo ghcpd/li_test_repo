@@ -1,0 +1,4 @@
+# Ignore generated JSON reports
+*.json
+!package.json
+!package-lock.json

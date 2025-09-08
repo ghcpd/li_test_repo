@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-09-08 08:36:05",
+  "input_file": "test_schedule.csv",
+  "known_conflicts_file": null,
+  "total_schedules": 12074,
+  "algorithms_run": [
+    "sweep_line"
+  ],
+  "conflicts_detected": {
+    "Sweep Line": 3766
+  },
+  "performance_stats": [
+    {
+      "algorithm": "Sweep Line",
+      "execution_time_ms": 94.61,
+      "memory_usage_mb": 0.7,
+      "conflicts_found": 3766
+    }
+  ],
+  "validation_metrics": {},
+  "report_files": [
+    "report/conflicts_sweep_line.csv",
+    "report/conflicts_sweep_line.txt",
+    "report/performance_20250908_083605.csv"
+  ]
+}

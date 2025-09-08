@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-09-08 08:34:06",
+  "input_file": "test_schedule.csv",
+  "known_conflicts_file": "known_conflicts.json",
+  "total_schedules": 12074,
+  "algorithms_run": [
+    "brute_force"
+  ],
+  "conflicts_detected": {
+    "Brute Force": 3766
+  },
+  "performance_stats": [
+    {
+      "algorithm": "Brute Force",
+      "execution_time_ms": 29405.08,
+      "memory_usage_mb": 0.58,
+      "conflicts_found": 3766
+    }
+  ],
+  "validation_metrics": {
+    "Brute Force": {
+      "precision": 0.13416911176313684,
+      "recall": 0.3195679796696315,
+      "f1_score": 0.18899117039263574
+    }
+  },
+  "report_files": [
+    "report/conflicts_brute_force.csv",
+    "report/conflicts_brute_force.txt",
+    "report/performance_20250908_083405.csv",
+    "report/validation_20250908_083406.csv"
+  ]
+}

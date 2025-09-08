@@ -1,0 +1,2 @@
+algorithm,execution_time_ms,memory_usage_mb,conflicts_found,precision,recall,f1_score,true_positives,false_positives,false_negatives
+Brute Force,29590.44,0.58,3766,0.1342,0.3196,0.189,503,3246,1072

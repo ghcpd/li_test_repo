@@ -75,6 +75,59 @@ def severity(minutes: int) -> str:
     return "Low"
 
 
+# Visualization helpers: Gantt and heatmap
+
+def draw_gantt(output_dir: str, schedules: List[Schedule]):
+    try:
+        by_person: Dict[str, List[Schedule]] = {}
+        for s in schedules:
+            by_person.setdefault(s.person_id, []).append(s)
+        fig, ax = plt.subplots(figsize=(10, 6))
+        yticks, ylabels = [], []
+        y = 0
+        for pid, items in sorted(by_person.items()):
+            items.sort(key=lambda x: x.start)
+            for it in items:
+                ax.barh(y, (it.end - it.start).total_seconds() / 60, left=(it.start - items[0].start).total_seconds() / 60)
+            yticks.append(y)
+            ylabels.append(pid)
+            y += 1
+        ax.set_yticks(yticks)
+        ax.set_yticklabels(ylabels)
+        ax.set_xlabel("Minutes from first activity per person")
+        ax.set_title("Gantt Chart of Schedules")
+        fig.tight_layout()
+        fig.savefig(os.path.join(output_dir, "gantt.png"))
+        plt.close(fig)
+    except Exception:
+        pass
+
+
+def draw_heatmap(output_dir: str, schedules: List[Schedule]):
+    try:
+        persons = sorted({s.person_id for s in schedules})
+        base = min(s.start for s in schedules)
+        max_minute = int(max(s.end for s in schedules).timestamp() - base.timestamp()) // 60 + 1
+        grid = [[0] * max_minute for _ in persons]
+        for s in schedules:
+            i = persons.index(s.person_id)
+            start = int((s.start.timestamp() - base.timestamp()) // 60)
+            end = int((s.end.timestamp() - base.timestamp()) // 60)
+            for m in range(start, end):
+                grid[i][m] += 1
+        import numpy as np
+        fig, ax = plt.subplots(figsize=(10, 4))
+        ax.imshow(np.array(grid), aspect='auto', cmap='hot')
+        ax.set_yticks(range(len(persons)))
+        ax.set_yticklabels(persons)
+        ax.set_title("Conflict Heatmap (counts of activities per minute)")
+        fig.tight_layout()
+        fig.savefig(os.path.join(output_dir, "heatmap.png"))
+        plt.close(fig)
+    except Exception:
+        pass
+
+
 def brute_force_conflicts(s: List[Schedule]):
     conflicts = []
     n = len(s)
@@ -308,6 +361,10 @@ def main():
         fig.tight_layout()
         fig.savefig(os.path.join(args.output, "performance_memory.png"))
         plt.close(fig)
+
+        # Draw visualizations
+        draw_gantt(args.output, schedules)
+        draw_heatmap(args.output, schedules)
     except Exception:
         pass
 

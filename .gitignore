@@ -1,0 +1,4 @@
+# Ignore output and cache directories
+report/
+__pycache__/
+*.pyc

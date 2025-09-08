@@ -1,0 +1,8 @@
+2025-09-08 07:12:01,123 INFO Starting application
+2025-09-08 07:12:02,456 WARNING Disk space low on /dev/sda1
+2025-09-08 07:12:03,789 ERROR Connection refused to database server
+[2025-09-08 07:13:00] [ERROR] Timeout while connecting to API endpoint
+[2025-09-08 07:13:05] [WARNING] Rate limit exceeded for user requests
+2025-09-08 07:14:10,000 ERROR File not found: /var/data/input.csv
+2025-09-09 08:00:00,000 WARN Authentication failed for user 'alice'
+no date here but ERROR something bad happened

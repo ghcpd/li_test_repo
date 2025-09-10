@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zodiac Explorer</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Zodiac Explorer</h1>
+  </header>
+
+  <section class="controls">
+    <input id="search" type="text" placeholder="Search zodiac by name..." />
+    <select id="elementFilter">
+      <option value="">All Elements</option>
+      <option>Fire</option>
+      <option>Earth</option>
+      <option>Air</option>
+      <option>Water</option>
+    </select>
+    <button id="randomBtn">Random Zodiac</button>
+  </section>
+
+  <main>
+    <div id="cards" class="cards" aria-live="polite"></div>
+    <div id="details" class="details hidden"></div>
+  </main>
+
+  <footer>
+    <small>Data served by Flask API</small>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

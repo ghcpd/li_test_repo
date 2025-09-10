@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Explorer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">🌟 Zodiac Explorer</h1>
+            <p class="subtitle">Discover the mysteries of the zodiac signs</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search zodiac signs..." class="search-input">
+                <button id="searchBtn" class="search-btn">🔍</button>
+            </div>
+            
+            <div class="filter-container">
+                <select id="elementFilter" class="element-filter">
+                    <option value="">All Elements</option>
+                    <option value="fire">🔥 Fire</option>
+                    <option value="earth">🌍 Earth</option>
+                    <option value="air">💨 Air</option>
+                    <option value="water">💧 Water</option>
+                </select>
+            </div>
+            
+            <button id="randomBtn" class="random-btn">🎲 Random Zodiac</button>
+        </div>
+
+        <div id="loadingIndicator" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Loading zodiac signs...</p>
+        </div>
+
+        <div id="errorMessage" class="error-message hidden">
+            <p>Something went wrong. Please try again.</p>
+        </div>
+
+        <div id="zodiacGrid" class="zodiac-grid">
+            <!-- Zodiac cards will be dynamically inserted here -->
+        </div>
+
+        <div id="noResults" class="no-results hidden">
+            <p>No zodiac signs found matching your criteria.</p>
+            <button id="clearFilters" class="clear-btn">Clear Filters</button>
+        </div>
+    </div>
+
+    <!-- Modal for zodiac details -->
+    <div id="zodiacModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <div id="modalBody">
+                <!-- Modal content will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

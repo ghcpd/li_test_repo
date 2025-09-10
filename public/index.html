@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EventHub</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>EventHub</h1>
+    <a href="/admin.html">Admin</a>
+  </header>
+
+  <section class="filters">
+    <input id="search" placeholder="Search events" />
+    <select id="category">
+      <option value="">All Categories</option>
+      <option>Technology</option>
+      <option>Entertainment</option>
+      <option>Community</option>
+    </select>
+  </section>
+
+  <main id="events" class="grid"></main>
+
+  <template id="event-card">
+    <div class="card">
+      <h3 class="title"></h3>
+      <p class="meta"></p>
+      <p class="desc"></p>
+      <button class="register">Register</button>
+      <span class="remaining"></span>
+    </div>
+  </template>
+
+  <script src="/client.js"></script>
+</body>
+</html>

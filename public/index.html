@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Event Hub</h1>
+    <div class="search-filter">
+      <input type="text" id="search" placeholder="Search events..." />
+      <input type="date" id="dateFilter" />
+      <select id="typeFilter">
+        <option value="">All Types</option>
+        <option value="meetup">Meetup</option>
+        <option value="workshop">Workshop</option>
+        <option value="general">General</option>
+      </select>
+      <button id="applyFilters">Apply</button>
+    </div>
+    <nav>
+      <a href="/admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="notifications" aria-live="polite"></section>
+    <section id="recentlyViewed"></section>
+    <section id="events" class="card-grid"></section>
+    <section id="detail" class="detail"></section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin - Event Hub</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Admin - Event Hub</h1>
+    <nav>
+      <a href="/">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="adminLogin">
+      <h2>Login</h2>
+      <input type="password" id="adminPassword" placeholder="Password" />
+      <button id="loginBtn">Login</button>
+      <div id="loginStatus"></div>
+    </section>
+
+    <section id="adminPanel" style="display:none;">
+      <h2>Create Event</h2>
+      <div class="form">
+        <input id="title" placeholder="Title" />
+        <input id="datetime" type="datetime-local" />
+        <input id="location" placeholder="Location" />
+        <input id="type" placeholder="Type (meetup/workshop/general)" />
+        <input id="totalSeats" type="number" placeholder="Total Seats" />
+        <textarea id="description" placeholder="Description"></textarea>
+        <button id="createEvent">Create</button>
+      </div>
+
+      <h2>Manage Events</h2>
+      <div id="adminEvents" class="card-grid"></div>
+    </section>
+  </main>
+
+  <script src="/admin.js"></script>
+</body>
+</html>

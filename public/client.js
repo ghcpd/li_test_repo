@@ -19,14 +19,18 @@ function render(events) {
     t.querySelector('.desc').textContent = e.description || '';
     t.querySelector('.remaining').textContent = `${e.registered} registered • ${e.remaining} left`;
     const btn = t.querySelector('.register');
-    btn.disabled = new Date(e.date) < new Date() || e.remaining === 0;
-    btn.textContent = 'Register';
+    const isPast = new Date(e.date) < new Date();
+    const already = localStorage.getItem('registered:' + e.id) === 'true';
+    btn.disabled = isPast || e.remaining === 0 || already;
+    btn.textContent = already ? 'Registered' : 'Register';
+    if (already) btn.classList.add('success');
     btn.onclick = async () => {
       const name = prompt('Your name?');
       const email = prompt('Your email?');
       if (!name || !email) return;
       const resp = await fetch('/api/register', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name, email, eventId: e.id }) });
       if (resp.ok) {
+        localStorage.setItem('registered:' + e.id, 'true');
         btn.textContent = 'Registered';
         btn.classList.add('success');
         btn.disabled = true;

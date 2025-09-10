@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zodiac Explorer</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🔭 Zodiac Explorer</h1>
+    <p>Search and discover zodiac signs by name or element.</p>
+  </header>
+
+  <section class="controls">
+    <input id="searchInput" type="text" placeholder="Search by name (e.g., Aries)" />
+    <select id="elementFilter">
+      <option value="">All Elements</option>
+      <option value="Fire">Fire</option>
+      <option value="Earth">Earth</option>
+      <option value="Air">Air</option>
+      <option value="Water">Water</option>
+    </select>
+    <button id="randomBtn">🎲 Random Zodiac</button>
+  </section>
+
+  <section id="status" class="status hidden">Loading...</section>
+  <section id="error" class="error hidden"></section>
+
+  <main>
+    <section id="cards" class="cards"></section>
+    <aside id="details" class="details hidden">
+      <h2 id="detailName"></h2>
+      <p><strong>Date Range:</strong> <span id="detailDate"></span></p>
+      <p><strong>Symbol:</strong> <span id="detailSymbol"></span></p>
+      <p><strong>Element:</strong> <span id="detailElement"></span></p>
+      <p><strong>Origin:</strong> <span id="detailOrigin"></span></p>
+      <div>
+        <strong>Personality Traits:</strong>
+        <ul id="detailTraits"></ul>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <small>Data served by a lightweight Flask API. Click a card to view details.</small>
+  </footer>
+
+  <script>
+    const cardsEl = document.getElementById('cards');
+    const searchInput = document.getElementById('searchInput');
+    const elementFilter = document.getElementById('elementFilter');
+    const randomBtn = document.getElementById('randomBtn');
+    const statusEl = document.getElementById('status');
+    const errorEl = document.getElementById('error');
+
+    const details = {
+      container: document.getElementById('details'),
+      name: document.getElementById('detailName'),
+      date: document.getElementById('detailDate'),
+      symbol: document.getElementById('detailSymbol'),
+      element: document.getElementById('detailElement'),
+      origin: document.getElementById('detailOrigin'),
+      traits: document.getElementById('detailTraits')
+    };
+
+    function setLoading(isLoading) {
+      statusEl.classList.toggle('hidden', !isLoading);
+    }
+
+    function setError(msg) {
+      if (msg) {
+        errorEl.textContent = msg;
+        errorEl.classList.remove('hidden');
+      } else {
+        errorEl.textContent = '';
+        errorEl.classList.add('hidden');
+      }
+    }
+
+    function elementClass(element) {
+      switch ((element || '').toLowerCase()) {
+        case 'fire': return 'fire';
+        case 'earth': return 'earth';
+        case 'air': return 'air';
+        case 'water': return 'water';
+        default: return '';
+      }
+    }
+
+    function renderCards(items) {
+      cardsEl.innerHTML = '';
+      if (!items || items.length === 0) {
+        cardsEl.innerHTML = '<p class="muted">No results found.</p>';
+        return;
+      }
+      for (const z of items) {
+        const card = document.createElement('div');
+        card.className = `card ${elementClass(z.element)}`;
+        card.innerHTML = `
+          <h3>${z.name}</h3>
+          <p class="date">${z.date_range}</p>
+          <p class="symbol">${z.symbol}</p>
+          <span class="badge">${z.element}</span>
+        `;
+        card.addEventListener('click', () => {
+          showDetails(z.name);
+        });
+        cardsEl.appendChild(card);
+      }
+    }
+
+    async function fetchZodiacs(params = {}) {
+      const url = new URL('/zodiacs', window.location.origin);
+      Object.entries(params).forEach(([k, v]) => {
+        if (v !== undefined && v !== null && v !== '') url.searchParams.set(k, v);
+      });
+      setLoading(true);
+      setError('');
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error('Failed to load zodiacs');
+        const data = await res.json();
+        renderCards(data);
+      } catch (e) {
+        setError(e.message || 'Something went wrong.');
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    async function showDetails(name) {
+      details.container.classList.add('hidden');
+      setLoading(true);
+      try {
+        const res = await fetch(`/zodiacs/${encodeURIComponent(name)}`);
+        if (!res.ok) throw new Error('Zodiac not found');
+        const z = await res.json();
+        details.name.textContent = z.name;
+        details.date.textContent = z.date_range;
+        details.symbol.textContent = z.symbol;
+        details.element.textContent = z.element;
+        details.origin.textContent = z.origin;
+        details.traits.innerHTML = '';
+        for (const t of z.traits || []) {
+          const li = document.createElement('li');
+          li.textContent = t;
+          details.traits.appendChild(li);
+        }
+        details.container.classList.remove('hidden');
+        details.container.className = `details ${elementClass(z.element)}`;
+      } catch (e) {
+        setError(e.message || 'Could not load details.');
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    // Event listeners
+    searchInput.addEventListener('input', () => {
+      const element = elementFilter.value;
+      const search = searchInput.value;
+      fetchZodiacs({ search, element });
+    });
+
+    elementFilter.addEventListener('change', () => {
+      const element = elementFilter.value;
+      const search = searchInput.value;
+      fetchZodiacs({ search, element });
+    });
+
+    randomBtn.addEventListener('click', () => {
+      fetchZodiacs({ random: true });
+    });
+
+    // Initial load
+    fetchZodiacs();
+  </script>
+</body>
+</html>

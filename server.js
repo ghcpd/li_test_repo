@@ -167,7 +167,7 @@ app.delete('/api/events/:id', auth, (req, res) => {
 // Serve static files
 const publicDir = path.join(__dirname, 'public');
 app.use(express.static(publicDir));
-app.get('*', (req, res) => res.sendFile(path.join(publicDir, 'index.html')));
+app.get(/.*/, (req, res) => res.sendFile(path.join(publicDir, 'index.html')));
 
 // Create server and WebSocket
 const server = http.createServer(app);

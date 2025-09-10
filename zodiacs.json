@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Aries",
+    "date_range": "March 21 – April 19",
+    "symbol": "Ram",
+    "element": "Fire",
+    "origin": "Aries is associated with the Greek myth of the Golden Fleece and symbolizes new beginnings.",
+    "traits": ["Energetic", "Confident", "Impulsive", "Courageous"]
+  },
+  {
+    "name": "Taurus",
+    "date_range": "April 20 – May 20",
+    "symbol": "Bull",
+    "element": "Earth",
+    "origin": "Taurus is linked to the Greek myth of Zeus transforming into a bull.",
+    "traits": ["Reliable", "Patient", "Practical", "Stubborn"]
+  },
+  {
+    "name": "Gemini",
+    "date_range": "May 21 – June 20",
+    "symbol": "Twins",
+    "element": "Air",
+    "origin": "Gemini represents the twins Castor and Pollux from Greek mythology.",
+    "traits": ["Adaptable", "Curious", "Outgoing", "Indecisive"]
+  },
+  {
+    "name": "Cancer",
+    "date_range": "June 21 – July 22",
+    "symbol": "Crab",
+    "element": "Water",
+    "origin": "Cancer is connected to the crab sent by Hera in the myth of Hercules.",
+    "traits": ["Nurturing", "Emotional", "Protective", "Moody"]
+  },
+  {
+    "name": "Leo",
+    "date_range": "July 23 – August 22",
+    "symbol": "Lion",
+    "element": "Fire",
+    "origin": "Leo relates to the Nemean Lion defeated by Hercules.",
+    "traits": ["Charismatic", "Ambitious", "Generous", "Proud"]
+  },
+  {
+    "name": "Virgo",
+    "date_range": "August 23 – September 22",
+    "symbol": "Maiden",
+    "element": "Earth",
+    "origin": "Virgo is often associated with Astraea, the goddess of innocence and purity.",
+    "traits": ["Analytical", "Practical", "Diligent", "Perfectionist"]
+  },
+  {
+    "name": "Libra",
+    "date_range": "September 23 – October 22",
+    "symbol": "Scales",
+    "element": "Air",
+    "origin": "Libra symbolizes balance and justice, often associated with Themis.",
+    "traits": ["Diplomatic", "Fair-minded", "Social", "Indecisive"]
+  },
+  {
+    "name": "Scorpio",
+    "date_range": "October 23 – November 21",
+    "symbol": "Scorpion",
+    "element": "Water",
+    "origin": "Scorpio is linked to the scorpion that stung Orion in Greek mythology.",
+    "traits": ["Passionate", "Resourceful", "Intense", "Secretive"]
+  },
+  {
+    "name": "Sagittarius",
+    "date_range": "November 22 – December 21",
+    "symbol": "Archer",
+    "element": "Fire",
+    "origin": "Sagittarius is associated with the centaur archer, often Chiron.",
+    "traits": ["Optimistic", "Adventurous", "Independent", "Blunt"]
+  },
+  {
+    "name": "Capricorn",
+    "date_range": "December 22 – January 19",
+    "symbol": "Sea-Goat",
+    "element": "Earth",
+    "origin": "Capricorn is tied to the goat-fish, often associated with the god Pan.",
+    "traits": ["Disciplined", "Responsible", "Ambitious", "Reserved"]
+  },
+  {
+    "name": "Aquarius",
+    "date_range": "January 20 – February 18",
+    "symbol": "Water Bearer",
+    "element": "Air",
+    "origin": "Aquarius is connected to Ganymede, the cupbearer to the gods.",
+    "traits": ["Innovative", "Humanitarian", "Independent", "Detached"]
+  },
+  {
+    "name": "Pisces",
+    "date_range": "February 19 – March 20",
+    "symbol": "Fish",
+    "element": "Water",
+    "origin": "Pisces is associated with Aphrodite and Eros transforming into fish to escape Typhon.",
+    "traits": ["Compassionate", "Artistic", "Intuitive", "Escapist"]
+  }
+]

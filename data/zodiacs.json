@@ -1,0 +1,14 @@
+[
+  {"name":"Aries","date_range":"Mar 21 - Apr 19","symbol":"Ram","element":"Fire","origin":"Babylonian and Greek traditions associated Aries with the Ram of the Golden Fleece.","traits":["Energetic","Courageous","Confident"],"color":"#e25822"},
+  {"name":"Taurus","date_range":"Apr 20 - May 20","symbol":"Bull","element":"Earth","origin":"Linked to ancient bull worship in Mesopotamia.","traits":["Reliable","Patient","Practical"],"color":"#7cb342"},
+  {"name":"Gemini","date_range":"May 21 - Jun 20","symbol":"Twins","element":"Air","origin":"Representing Castor and Pollux from Greek mythology.","traits":["Adaptable","Curious","Outgoing"],"color":"#42a5f5"},
+  {"name":"Cancer","date_range":"Jun 21 - Jul 22","symbol":"Crab","element":"Water","origin":"The crab that attacked Hercules in Greek myth.","traits":["Loyal","Protective","Caring"],"color":"#26c6da"},
+  {"name":"Leo","date_range":"Jul 23 - Aug 22","symbol":"Lion","element":"Fire","origin":"Connected to the Nemean lion defeated by Hercules.","traits":["Generous","Confident","Dramatic"],"color":"#ff7043"},
+  {"name":"Virgo","date_range":"Aug 23 - Sep 22","symbol":"Maiden","element":"Earth","origin":"Linked to the goddess of wheat and agriculture.","traits":["Analytical","Kind","Hardworking"],"color":"#8bc34a"},
+  {"name":"Libra","date_range":"Sep 23 - Oct 22","symbol":"Scales","element":"Air","origin":"Represents balance and fairness from Roman mythology.","traits":["Diplomatic","Gracious","Fair-minded"],"color":"#64b5f6"},
+  {"name":"Scorpio","date_range":"Oct 23 - Nov 21","symbol":"Scorpion","element":"Water","origin":"The scorpion that killed Orion in Greek legend.","traits":["Passionate","Resourceful","Brave"],"color":"#00bcd4"},
+  {"name":"Sagittarius","date_range":"Nov 22 - Dec 21","symbol":"Archer","element":"Fire","origin":"Connected to the centaur Chiron.","traits":["Optimistic","Adventurous","Honest"],"color":"#ffa726"},
+  {"name":"Capricorn","date_range":"Dec 22 - Jan 19","symbol":"Goat","element":"Earth","origin":"The sea-goat from Babylonian mythology.","traits":["Disciplined","Responsible","Ambitious"],"color":"#9ccc65"},
+  {"name":"Aquarius","date_range":"Jan 20 - Feb 18","symbol":"Water-bearer","element":"Air","origin":"Associated with the boy Ganymede in Greek myth.","traits":["Innovative","Independent","Humanitarian"],"color":"#2196f3"},
+  {"name":"Pisces","date_range":"Feb 19 - Mar 20","symbol":"Fish","element":"Water","origin":"Two fish tied together in Greek mythology.","traits":["Compassionate","Intuitive","Artistic"],"color":"#26c6da"}
+]

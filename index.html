@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Task Board</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Team Task Board</h1>
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search by title..." />
+      <input type="text" id="assigneeFilter" placeholder="Filter by assignee..." />
+      <input type="date" id="dueFilter" />
+      <button id="clearFilters">Clear Filters</button>
+      <button id="newTaskBtn">+ New Task</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="column" data-status="todo">
+      <h2>To Do</h2>
+      <div class="task-list" id="todo"></div>
+    </section>
+    <section class="column" data-status="inprogress">
+      <h2>In Progress</h2>
+      <div class="task-list" id="inprogress"></div>
+    </section>
+    <section class="column" data-status="completed">
+      <h2>Completed</h2>
+      <div class="task-list" id="completed"></div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h3 id="modalTitle">New Task</h3>
+      <label>Title<input id="taskTitle" type="text" /></label>
+      <label>Description<textarea id="taskDesc"></textarea></label>
+      <label>Due Date<input id="taskDue" type="date" /></label>
+      <label>Assignee<input id="taskAssignee" type="text" /></label>
+      <div class="actions">
+        <button id="saveTask">Save</button>
+        <button id="deleteTask" class="danger hidden">Delete</button>
+        <button id="cancelTask">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

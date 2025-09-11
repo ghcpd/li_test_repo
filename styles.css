@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; background: #f6f7fb; color: #333; }
+header { background: #4a90e2; color: white; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; }
+header h1 { margin: 0; font-size: 20px; }
+.controls { display: flex; gap: 8px; }
+.controls input { padding: 6px; }
+.controls button { padding: 6px 10px; cursor: pointer; }
+
+main { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 12px; }
+.column { background: #fff; border-radius: 6px; padding: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.column h2 { margin: 4px 0 8px; font-size: 16px; }
+.task-list { min-height: 400px; border: 2px dashed transparent; padding: 6px; }
+.task-list.drag-over { border-color: #4a90e2; background: #eef5ff; }
+.task { background: #fafafa; border: 1px solid #ddd; border-radius: 4px; padding: 8px; margin-bottom: 8px; cursor: grab; }
+.task h4 { margin: 0 0 6px; font-size: 14px; }
+.task p { margin: 0 0 6px; font-size: 12px; color: #555; }
+.task .meta { display: flex; justify-content: space-between; font-size: 12px; color: #777; }
+
+.modal { position: fixed; inset: 0; background: rgba(0,0,0,0.4); display: flex; align-items: center; justify-content: center; }
+.modal.hidden { display: none; }
+.modal-content { background: white; padding: 12px; border-radius: 6px; width: 320px; display: grid; gap: 8px; }
+.modal-content label { font-size: 12px; display: grid; gap: 4px; }
+.modal-content input, .modal-content textarea { padding: 6px; }
+.actions { display: flex; justify-content: flex-end; gap: 8px; }
+.danger { background: #e74c3c; color: white; }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Team Task Board</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <h1>Team Task Board</h1>
+  <div class="controls">
+    <form id="taskForm">
+      <input id="title" placeholder="Title" required />
+      <input id="assignee" placeholder="Assignee" />
+      <input id="dueDate" type="date" />
+      <input id="description" placeholder="Description" />
+      <button type="submit">Add Task</button>
+    </form>
+    <div class="filters">
+      <input id="filterText" placeholder="Filter by title" />
+      <input id="filterAssignee" placeholder="Filter by assignee" />
+      <input id="filterDue" type="date" />
+      <button id="clearFilters">Clear</button>
+    </div>
+  </div>
+  <div class="board">
+    <div class="column" data-status="todo">
+      <h2>To Do</h2>
+      <div class="dropzone" id="todo"></div>
+    </div>
+    <div class="column" data-status="inprogress">
+      <h2>In Progress</h2>
+      <div class="dropzone" id="inprogress"></div>
+    </div>
+    <div class="column" data-status="completed">
+      <h2>Completed</h2>
+      <div class="dropzone" id="completed"></div>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js" type="module"></script>
+</body>
+</html>

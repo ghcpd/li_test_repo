@@ -1,0 +1,6 @@
+# Auto-generated outputs should not be committed
+outputs/
+*.png
+*.pdf
+*.xlsx
+__pycache__/

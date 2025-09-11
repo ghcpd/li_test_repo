@@ -112,18 +112,25 @@ def pick_meal_plan(df, total_calories: float, meals: int, seed: int = 0):
     pd, np, _ = ensure_deps()
     rng = np.random.default_rng(seed)
     per_meal = total_calories / meals
-    # Simple heuristic: for each meal, choose dish with calories closest to per-meal
     candidates = df.sample(frac=1.0, random_state=seed).reset_index(drop=True)
-    chosen = []
+    chosen_rows = []
     used = set()
     for _ in range(meals):
         diffs = (candidates['calories'] - per_meal).abs()
         for idx in diffs.sort_values().index:
             if idx not in used:
                 used.add(idx)
-                chosen.append(candidates.loc[idx])
+                row = candidates.loc[idx].copy()
+                portion = max(1, int(round(per_meal / max(1.0, float(row['calories'])))))
+                portion = min(portion, 3)
+                row['portion'] = portion
+                row['calories'] = float(row['calories']) * portion
+                row['protein'] = float(row['protein']) * portion
+                row['fat'] = float(row['fat']) * portion
+                row['carbs'] = float(row['carbs']) * portion
+                chosen_rows.append(row)
                 break
-    plan = pd.DataFrame(chosen)
+    plan = pd.DataFrame(chosen_rows)
     return plan
 
 

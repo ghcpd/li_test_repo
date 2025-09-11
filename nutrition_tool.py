@@ -17,8 +17,8 @@ except Exception:
 def ensure_deps():
     global pd, np, plt
     if pd is None or np is None or plt is None:
-        print("Installing required dependencies (pandas, numpy, matplotlib)...")
-        os.system(sys.executable + " -m pip install --quiet pandas numpy matplotlib")
+        print("Installing required dependencies (pandas, numpy, matplotlib, openpyxl)...")
+        os.system(sys.executable + " -m pip install --quiet pandas numpy matplotlib openpyxl")
         import pandas as pd  # type: ignore
         import numpy as np  # type: ignore
         import matplotlib.pyplot as plt  # type: ignore

@@ -1,0 +1,13 @@
+dish_name,ingredients,weight,calories,protein,fat,carbs,tags
+Grilled Chicken Salad,Chicken breast;Lettuce;Tomatoes;Olive oil,350,420,40,18,22,low-carb;low-sugar
+Oatmeal with Berries,Oats;Milk;Blueberries;Honey,300,350,12,8,58,vegetarian
+Tofu Stir Fry,Tofu;Broccoli;Bell peppers;Soy sauce,400,380,22,12,50,vegetarian;low-sugar
+Salmon with Quinoa,Salmon;Quinoa;Asparagus;Lemon,380,480,35,20,36,low-sugar
+Greek Yogurt Parfait,Yogurt;Granola;Strawberries;Honey,250,280,18,6,40,vegetarian
+Veggie Omelette,Eggs;Spinach;Mushrooms;Cheese,280,320,21,20,6,vegetarian;low-sugar
+Lentil Soup,Lentils;Carrots;Celery;Onions,350,300,20,6,48,vegetarian;low-fat
+Turkey Sandwich,Turkey;Whole grain bread;Lettuce;Mustard,320,410,28,12,44,low-sugar
+Brown Rice Bowl,Brown rice;Chicken;Broccoli;Soy sauce,420,520,36,12,70,low-sugar
+Fruit Salad,Apple;Banana;Grapes;Orange,250,180,3,1,42,vegetarian;low-fat;low-salt
+Avocado Toast,Avocado;Whole grain bread;Tomatoes,220,260,6,14,26,vegetarian
+Quinoa Chickpea Bowl,Quinoa;Chickpeas;Spinach;Olive oil,380,450,18,14,62,vegetarian;low-sugar

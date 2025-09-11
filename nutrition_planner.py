@@ -248,9 +248,10 @@ def visualize_and_export(
         fig2, ax2 = plt.subplots()
         meal_names = [d.dish_name for d in plan.meals]
         meal_cals = [d.calories for d in plan.meals]
-        ax2.bar(meal_names, meal_cals, color="#4c72b0")
+        ax2.bar(range(len(meal_names)), meal_cals, color="#4c72b0")
         ax2.set_ylabel("Calories")
         ax2.set_title("Calories per Meal")
+        ax2.set_xticks(range(len(meal_names)))
         ax2.set_xticklabels(meal_names, rotation=30, ha="right")
         fig2.tight_layout()
         fig2.savefig(f"{out_prefix}_meal_bars.png", dpi=150)

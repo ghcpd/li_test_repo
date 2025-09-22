@@ -1,0 +1,53 @@
+2023-12-25 08:30:15 INFO Application started successfully
+2023-12-25 08:30:16 INFO Loading configuration from /etc/app/config.xml
+2023-12-25 08:30:17 WARNING Configuration property 'timeout_seconds' not found, using default value
+2023-12-25 08:30:20 INFO Database connection established
+2023-12-25 08:35:45 ERROR Connection refused to database server at localhost:5432
+2023-12-25 08:35:46 ERROR Database connection failed after 3 retries
+2023-12-25 08:36:00 WARNING Authentication failed for user 'admin' from IP 192.168.1.100
+2023-12-25 08:36:01 INFO Retrying database connection
+2023-12-25 08:36:02 INFO Database connection restored
+2023-12-25 09:15:30 WARNING Disk space running low on /var partition (85% used)
+2023-12-25 09:20:00 ERROR Out of memory exception in worker thread #3
+2023-12-25 09:20:01 ERROR Application heap space exhausted
+2023-12-25 09:20:02 CRITICAL System shutting down due to memory issues
+2023-12-25 10:45:15 INFO Application restarted
+2023-12-25 10:45:16 INFO Loading configuration from /etc/app/config.xml
+2023-12-25 10:50:22 WARNING Request timeout for user session abc123 after 30 seconds
+2023-12-25 11:30:00 ERROR File not found: /tmp/data/import_file.csv
+2023-12-25 11:30:01 ERROR Permission denied accessing /var/log/secure.log
+2023-12-25 12:15:45 INFO Processing batch job #1001
+2023-12-25 12:16:00 WARNING SQL query timeout for SELECT operation (timeout: 60s)
+2023-12-25 12:16:05 ERROR Database deadlock detected in transaction tx_1001
+2023-12-25 13:20:10 INFO User login successful: jane.doe@company.com
+2023-12-25 13:25:30 WARNING Network unreachable for external API call
+2023-12-25 13:25:31 ERROR Socket timeout connecting to api.external.com:443
+2023-12-25 14:00:00 INFO Daily backup started
+2023-12-25 14:05:30 ERROR IO error writing backup file to /backup/daily_20231225.tar.gz
+2023-12-25 14:05:31 ERROR No space left on device /backup
+2023-12-25 15:30:00 INFO Maintenance window started
+2023-12-25 15:30:15 WARNING Service temporarily unavailable
+2023-12-25 16:00:00 INFO Maintenance window completed
+2023-12-25 16:00:01 INFO All services restored
+2023-12-26 08:00:00 INFO Daily log rotation completed
+2023-12-26 08:15:30 ERROR Login failed for user 'hacker' - invalid credentials
+2023-12-26 08:15:31 WARNING Multiple failed login attempts from IP 10.0.0.50
+2023-12-26 08:20:00 ERROR Access denied to resource /admin/users
+2023-12-26 09:30:15 WARNING Connection reset by peer during file transfer
+2023-12-26 09:30:16 ERROR File transfer operation failed
+2023-12-26 10:45:00 INFO System health check completed
+2023-12-26 11:00:00 ERROR Config error: missing required property 'api_key'
+2023-12-26 11:00:01 WARNING Using fallback configuration
+2023-12-26 12:30:00 INFO Processing completed successfully
+Dec 27 08:30:15 server01 kernel: Out of memory: Kill process 1234 (java) score 900
+Dec 27 08:35:00 server01 sshd[5678]: Authentication failure for invalid user test from 192.168.1.200
+Dec 27 09:00:00 server01 httpd: File does not exist: /var/www/html/missing.php
+Dec 27 10:15:30 server01 mysqld: Query cache is disabled (size is 0)
+Dec 27 10:15:31 server01 mysqld: Deadlock found when trying to get lock
+25/Dec/2023:14:30:45 +0000 "GET /api/users HTTP/1.1" 500 2345 "Internal Server Error"
+25/Dec/2023:14:31:00 +0000 "POST /login HTTP/1.1" 401 234 "Unauthorized"
+25/Dec/2023:15:45:15 +0000 "GET /dashboard HTTP/1.1" 504 123 "Gateway Timeout"
+26/Dec/2023:08:00:00 +0000 "DELETE /api/data HTTP/1.1" 403 456 "Forbidden"
+12/25/2023 16:30:00 ERROR Application crashed with exit code 1
+12/26/2023 09:15:00 WARNING Memory usage above 90% threshold
+12/27/2023 11:20:00 FATAL Stack overflow in recursive function call

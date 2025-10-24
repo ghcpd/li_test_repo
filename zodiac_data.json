@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Aries",
+    "date_range": "March 21 - April 19",
+    "symbol": "♈",
+    "element": "Fire",
+    "origin": "Aries is the first astrological sign in the zodiac, originating from the constellation of Aries. In Greek mythology, Aries represents the golden ram that rescued Phrixus and Helle.",
+    "personality_traits": [
+      "Bold and ambitious",
+      "Confident and passionate",
+      "Natural leaders",
+      "Enthusiastic and optimistic",
+      "Can be impulsive and impatient"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Taurus",
+    "date_range": "April 20 - May 20",
+    "symbol": "♉",
+    "element": "Earth",
+    "origin": "Taurus is the second astrological sign and is associated with the constellation Taurus. In Greek mythology, it represents Zeus disguised as a white bull to seduce Europa.",
+    "personality_traits": [
+      "Reliable and patient",
+      "Practical and devoted",
+      "Responsible and stable",
+      "Enjoys luxury and comfort",
+      "Can be stubborn and possessive"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gemini",
+    "date_range": "May 21 - June 20",
+    "symbol": "♊",
+    "element": "Air",
+    "origin": "Gemini is represented by the twins Castor and Pollux from Greek mythology, symbolizing duality and versatility. The constellation represents these twin brothers.",
+    "personality_traits": [
+      "Adaptable and versatile",
+      "Communicative and witty",
+      "Intellectual and curious",
+      "Social and fun-loving",
+      "Can be inconsistent and indecisive"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Cancer",
+    "date_range": "June 21 - July 22",
+    "symbol": "♋",
+    "element": "Water",
+    "origin": "Cancer is associated with the crab that Hera sent to distract Hercules during his battle with the Hydra. The constellation Cancer represents this brave crustacean.",
+    "personality_traits": [
+      "Emotional and sensitive",
+      "Nurturing and protective",
+      "Intuitive and imaginative",
+      "Loyal and sympathetic",
+      "Can be moody and clingy"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Leo",
+    "date_range": "July 23 - August 22",
+    "symbol": "♌",
+    "element": "Fire",
+    "origin": "Leo represents the Nemean Lion defeated by Hercules as his first labor. Zeus placed it in the sky to commemorate Hercules' victory.",
+    "personality_traits": [
+      "Confident and charismatic",
+      "Creative and passionate",
+      "Generous and warm-hearted",
+      "Natural leaders",
+      "Can be arrogant and stubborn"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Virgo",
+    "date_range": "August 23 - September 22",
+    "symbol": "♍",
+    "element": "Earth",
+    "origin": "Virgo is associated with Astraea, the goddess of justice, or Demeter, the goddess of agriculture. The constellation represents purity and virtue.",
+    "personality_traits": [
+      "Analytical and practical",
+      "Hardworking and methodical",
+      "Detail-oriented and reliable",
+      "Modest and kind",
+      "Can be overcritical and perfectionist"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Libra",
+    "date_range": "September 23 - October 22",
+    "symbol": "♎",
+    "element": "Air",
+    "origin": "Libra is the only zodiac sign represented by an inanimate object - the scales. It's associated with Themis, the Greek goddess of justice and divine law.",
+    "personality_traits": [
+      "Diplomatic and fair-minded",
+      "Social and cooperative",
+      "Gracious and idealistic",
+      "Peace-loving and balanced",
+      "Can be indecisive and avoidant of confrontation"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Scorpio",
+    "date_range": "October 23 - November 21",
+    "symbol": "♏",
+    "element": "Water",
+    "origin": "Scorpio is associated with the scorpion sent by Gaia to kill Orion. Both the scorpion and Orion were placed in the sky as constellations, forever chasing each other.",
+    "personality_traits": [
+      "Passionate and resourceful",
+      "Brave and determined",
+      "Intense and mysterious",
+      "Loyal and honest",
+      "Can be jealous and secretive"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Sagittarius",
+    "date_range": "November 22 - December 21",
+    "symbol": "♐",
+    "element": "Fire",
+    "origin": "Sagittarius represents Chiron, the wise centaur from Greek mythology who was a teacher and healer. The constellation depicts a centaur archer.",
+    "personality_traits": [
+      "Optimistic and freedom-loving",
+      "Adventurous and philosophical",
+      "Honest and enthusiastic",
+      "Intellectual and humorous",
+      "Can be tactless and impatient"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Capricorn",
+    "date_range": "December 22 - January 19",
+    "symbol": "♑",
+    "element": "Earth",
+    "origin": "Capricorn is represented by the sea-goat, a mythological creature with the body of a goat and tail of a fish. It's associated with the god Pan who transformed to escape Typhon.",
+    "personality_traits": [
+      "Ambitious and disciplined",
+      "Responsible and practical",
+      "Patient and self-controlled",
+      "Determined and persistent",
+      "Can be pessimistic and unforgiving"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Aquarius",
+    "date_range": "January 20 - February 18",
+    "symbol": "♒",
+    "element": "Air",
+    "origin": "Aquarius is represented by the water bearer. In Greek mythology, it's associated with Ganymede, who was carried to Mount Olympus by Zeus to serve as cupbearer to the gods.",
+    "personality_traits": [
+      "Progressive and independent",
+      "Humanitarian and intellectual",
+      "Original and inventive",
+      "Friendly and honest",
+      "Can be aloof and unpredictable"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Pisces",
+    "date_range": "February 19 - March 20",
+    "symbol": "♓",
+    "element": "Water",
+    "origin": "Pisces represents two fish tied together, symbolizing Aphrodite and Eros who transformed into fish to escape the monster Typhon. They tied themselves together to avoid separation.",
+    "personality_traits": [
+      "Compassionate and artistic",
+      "Intuitive and gentle",
+      "Wise and musical",
+      "Selfless and romantic",
+      "Can be overly trusting and escapist"
+    ]
+  }
+]

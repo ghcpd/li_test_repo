@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Explorer - Discover Your Sign</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>✨ Zodiac Explorer ✨</h1>
+            <p class="subtitle">Discover the mysteries of the zodiac signs</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Search and Filter Section -->
+        <section class="controls">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search for a zodiac sign..." 
+                    aria-label="Search zodiac signs"
+                >
+                <button id="searchBtn" aria-label="Search">🔍</button>
+            </div>
+
+            <div class="filter-container">
+                <label for="elementFilter">Filter by Element:</label>
+                <select id="elementFilter" aria-label="Filter by element">
+                    <option value="">All Elements</option>
+                    <option value="fire">🔥 Fire</option>
+                    <option value="earth">🌍 Earth</option>
+                    <option value="air">💨 Air</option>
+                    <option value="water">💧 Water</option>
+                </select>
+            </div>
+
+            <button id="randomBtn" class="btn-random" aria-label="Random zodiac">
+                🎲 Random Zodiac
+            </button>
+        </section>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="error-message" role="alert" aria-live="polite"></div>
+
+        <!-- Loading State -->
+        <div id="loadingState" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Loading zodiac signs...</p>
+        </div>
+
+        <!-- Zodiac Cards Grid -->
+        <section id="zodiacGrid" class="zodiac-grid">
+            <!-- Cards will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <!-- Detail Modal -->
+    <div id="zodiacModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div id="modalBody">
+                <!-- Modal content will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Zodiac Explorer. Explore the cosmic wonders.</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

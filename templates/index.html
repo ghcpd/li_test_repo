@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zodiac Explorer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero__content">
+          <h1>Zodiac Explorer</h1>
+          <p>Discover the stories, symbols, and traits behind each zodiac sign.</p>
+        </div>
+        <div class="hero__astral"></div>
+      </header>
+
+      <main>
+        <section class="controls" aria-label="Zodiac filters">
+          <div class="control-group">
+            <label for="searchInput">Search by name</label>
+            <input id="searchInput" type="search" placeholder="e.g. Leo" autocomplete="off" />
+          </div>
+          <div class="control-group">
+            <label for="elementFilter">Filter by element</label>
+            <select id="elementFilter">
+              <option value="">All elements</option>
+              {% for element in elements %}
+              <option value="{{ element }}">{{ element }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="control-group">
+            <label>&nbsp;</label>
+            <button id="randomButton" type="button" class="btn btn--accent">Surprise me ✨</button>
+          </div>
+        </section>
+
+        <section class="status">
+          <p id="statusMessage" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="layout">
+          <div class="cards" id="zodiacGrid" aria-live="polite"></div>
+          <aside class="detail" id="detailPanel" aria-live="polite">
+            <div class="detail__placeholder">
+              <h2>Select a zodiac sign</h2>
+              <p>Click on a card to reveal its story, origins, and standout traits.</p>
+            </div>
+          </aside>
+        </section>
+      </main>
+
+      <template id="zodiacCardTemplate">
+        <article class="card" tabindex="0" role="button" aria-pressed="false">
+          <header>
+            <span class="card__element"></span>
+            <h2 class="card__title"></h2>
+            <p class="card__dates"></p>
+          </header>
+          <footer>
+            <p class="card__symbol"></p>
+          </footer>
+        </article>
+      </template>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+  </body>
+</html>

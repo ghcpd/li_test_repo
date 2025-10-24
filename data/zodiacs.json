@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Aries",
+    "slug": "aries",
+    "date_range": "March 21 - April 19",
+    "symbol": "Ram",
+    "element": "Fire",
+    "origin": "Named after the ram in Greek mythology that saved Phrixus and Helle.",
+    "traits": ["Courageous", "Energetic", "Confident", "Impulsive"],
+    "color": "#F56565"
+  },
+  {
+    "name": "Taurus",
+    "slug": "taurus",
+    "date_range": "April 20 - May 20",
+    "symbol": "Bull",
+    "element": "Earth",
+    "origin": "Inspired by the bull form of Zeus from Greek mythology.",
+    "traits": ["Patient", "Reliable", "Loyal", "Stubborn"],
+    "color": "#68D391"
+  },
+  {
+    "name": "Gemini",
+    "slug": "gemini",
+    "date_range": "May 21 - June 20",
+    "symbol": "Twins",
+    "element": "Air",
+    "origin": "Represents the mythological twins Castor and Pollux.",
+    "traits": ["Adaptable", "Curious", "Expressive", "Indecisive"],
+    "color": "#63B3ED"
+  },
+  {
+    "name": "Cancer",
+    "slug": "cancer",
+    "date_range": "June 21 - July 22",
+    "symbol": "Crab",
+    "element": "Water",
+    "origin": "Linked to the crab Karkinos sent by Hera in Greek mythology.",
+    "traits": ["Nurturing", "Intuitive", "Protective", "Moody"],
+    "color": "#81E6D9"
+  },
+  {
+    "name": "Leo",
+    "slug": "leo",
+    "date_range": "July 23 - August 22",
+    "symbol": "Lion",
+    "element": "Fire",
+    "origin": "Associated with the Nemean lion defeated by Heracles.",
+    "traits": ["Generous", "Dramatic", "Warm", "Dominant"],
+    "color": "#F56565"
+  },
+  {
+    "name": "Virgo",
+    "slug": "virgo",
+    "date_range": "August 23 - September 22",
+    "symbol": "Maiden",
+    "element": "Earth",
+    "origin": "Linked to the goddess of harvest, Demeter, or Astraea.",
+    "traits": ["Analytical", "Practical", "Helpful", "Critical"],
+    "color": "#68D391"
+  },
+  {
+    "name": "Libra",
+    "slug": "libra",
+    "date_range": "September 23 - October 22",
+    "symbol": "Scales",
+    "element": "Air",
+    "origin": "Represents the scales of justice held by the goddess Themis.",
+    "traits": ["Diplomatic", "Idealistic", "Social", "Indecisive"],
+    "color": "#63B3ED"
+  },
+  {
+    "name": "Scorpio",
+    "slug": "scorpio",
+    "date_range": "October 23 - November 21",
+    "symbol": "Scorpion",
+    "element": "Water",
+    "origin": "Linked to the scorpion that killed Orion in Greek myths.",
+    "traits": ["Passionate", "Resourceful", "Loyal", "Secretive"],
+    "color": "#81E6D9"
+  },
+  {
+    "name": "Sagittarius",
+    "slug": "sagittarius",
+    "date_range": "November 22 - December 21",
+    "symbol": "Archer",
+    "element": "Fire",
+    "origin": "Often associated with the centaur Chiron, mentor of heroes.",
+    "traits": ["Adventurous", "Optimistic", "Philosophical", "Restless"],
+    "color": "#F56565"
+  },
+  {
+    "name": "Capricorn",
+    "slug": "capricorn",
+    "date_range": "December 22 - January 19",
+    "symbol": "Sea Goat",
+    "element": "Earth",
+    "origin": "Represents the goat-fish hybrid, associated with Pan or Enki.",
+    "traits": ["Disciplined", "Ambitious", "Patient", "Reserved"],
+    "color": "#68D391"
+  },
+  {
+    "name": "Aquarius",
+    "slug": "aquarius",
+    "date_range": "January 20 - February 18",
+    "symbol": "Water Bearer",
+    "element": "Air",
+    "origin": "Often linked to Ganymede, cupbearer to the gods.",
+    "traits": ["Innovative", "Independent", "Humanitarian", "Detached"],
+    "color": "#63B3ED"
+  },
+  {
+    "name": "Pisces",
+    "slug": "pisces",
+    "date_range": "February 19 - March 20",
+    "symbol": "Fish",
+    "element": "Water",
+    "origin": "Associated with Aphrodite and Eros transforming into fish to escape Typhon.",
+    "traits": ["Empathetic", "Artistic", "Intuitive", "Escapist"],
+    "color": "#81E6D9"
+  }
+]

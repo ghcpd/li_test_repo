@@ -1,0 +1,16 @@
+[
+  {
+    "person_id": "P001",
+    "original_schedule": "2025-09-01 09:00 - 2025-09-01 10:00",
+    "conflict_schedule": "2025-09-01 09:30 - 2025-09-01 10:15",
+    "activity_1": "Project Kickoff",
+    "activity_2": "Design Review"
+  },
+  {
+    "person_id": "P002",
+    "original_schedule": "2025-09-01 11:15 - 2025-09-01 12:00",
+    "conflict_schedule": "2025-09-01 11:45 - 2025-09-01 12:30",
+    "activity_1": "Training",
+    "activity_2": "Client Sync"
+  }
+]

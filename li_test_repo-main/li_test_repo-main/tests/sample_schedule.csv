@@ -1,0 +1,7 @@
+person_id,start_time,end_time,activity_name,location
+P001,2025-09-01 09:00,2025-09-01 10:00,Project Kickoff,Conference Room A
+P001,2025-09-01 09:30,2025-09-01 10:15,Design Review,Conference Room B
+P001,2025-09-01 11:00,2025-09-01 11:30,One-on-One,Online
+P002,2025-09-01 11:15,2025-09-01 12:00,Training,Training Room
+P002,2025-09-01 11:45,2025-09-01 12:30,Client Sync,Client Office
+P003,2025-09-02 13:00,2025-09-02 14:00,Testing,Lab 1

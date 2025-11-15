@@ -1,0 +1,11 @@
+dish_name,ingredients,weight,calories,protein,fat,carbs,tags
+Grilled Chicken Salad,Chicken Breast;Lettuce;Tomato;Olive Oil,250,420,40,15,30,high-protein;low-carb
+Quinoa Bowl,Quinoa;Black Beans;Corn;Avocado,280,480,20,18,60,vegetarian;high-fiber
+Salmon and Veggies,Salmon;Broccoli;Carrots;Olive Oil,300,520,35,22,40,high-protein;low-sugar
+Tofu Stir Fry,Tofu;Bell Pepper;Soy Sauce;Brown Rice,290,450,22,14,58,vegetarian;low-salt
+Greek Yogurt Parfait,Greek Yogurt;Berries;Granola;Honey,220,320,18,7,45,vegetarian;low-sugar
+Turkey Wrap,Turkey Breast;Whole Wheat Tortilla;Spinach;Hummus,260,410,28,12,46,low-salt;high-protein
+Veggie Omelette,Eggs;Spinach;Mushrooms;Cheese,200,350,25,20,10,low-carb;vegetarian
+Lentil Soup,Lentils;Carrots;Celery;Vegetable Broth,300,360,24,6,48,vegetarian;low-fat
+Shrimp Pasta,Shrimp;Whole Wheat Pasta;Tomato Sauce;Parmesan,280,500,30,16,60,high-protein;low-sugar
+Chickpea Salad,Chickpeas;Cucumber;Tomato;Feta,240,390,18,12,50,vegetarian;high-fiber

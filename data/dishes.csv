@@ -1,0 +1,17 @@
+dish_name,ingredients,weight,calories,protein,fat,carbs,tags
+Grilled Chicken Salad,Chicken breast; Lettuce; Tomatoes; Olive oil; Lemon,350,420,38,18,22,low-carb;gluten-free
+Quinoa Veggie Bowl,Quinoa; Black beans; Corn; Bell peppers; Avocado,400,520,22,16,68,vegetarian;high-fiber
+Salmon with Asparagus,Salmon fillet; Asparagus; Olive oil; Lemon,320,480,34,26,18,low-carb
+Turkey Avocado Wrap,Turkey breast; Whole wheat wrap; Avocado; Spinach,320,430,32,15,42,high-protein
+Tofu Stir Fry,Tofu; Broccoli; Carrots; Soy sauce; Sesame oil,360,380,24,12,46,vegetarian
+Greek Yogurt Parfait,Greek yogurt; Granola; Berries; Honey,250,280,18,6,40,vegetarian
+Lentil Soup,Lentils; Carrots; Celery; Onion; Olive oil,300,320,20,8,46,vegetarian;low-fat
+Beef and Sweet Potato,Lean beef; Sweet potato; Green beans; Olive oil,380,560,40,22,56,high-protein
+Egg White Omelette,Egg whites; Spinach; Mushrooms; Feta; Tomatoes,250,260,28,10,12,high-protein;low-carb
+Chickpea Salad Wrap,Chickpeas; Whole wheat wrap; Spinach; Tahini,310,410,18,12,58,vegetarian
+Brown Rice Shrimp Bowl,Brown rice; Shrimp; Broccoli; Carrots; Soy sauce,360,470,30,14,62,high-protein
+Vegetarian Pasta Bake,Whole wheat pasta; Ricotta; Spinach; Tomato sauce; Mozzarella,380,780,32,28,95,vegetarian;high-protein
+Tahini Buddha Bowl,Farro; Chickpeas; Kale; Tahini dressing; Roasted carrots,420,660,24,25,85,vegetarian;heart-healthy
+
+
+Oatmeal with Almonds,Oats; Almonds; Banana; Cinnamon,300,390,14,15,52,vegetarian;heart-healthy

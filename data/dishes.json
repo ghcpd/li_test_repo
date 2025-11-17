@@ -1,0 +1,122 @@
+[
+  {
+    "dish_name": "Grilled Chicken Salad",
+    "ingredients": ["Chicken Breast", "Mixed Greens", "Cherry Tomatoes", "Olive Oil"],
+    "weight": 350,
+    "calories": 420,
+    "protein": 45,
+    "fat": 15,
+    "carbs": 25,
+    "tags": ["low-carb", "high-protein"]
+  },
+  {
+    "dish_name": "Quinoa Bowl",
+    "ingredients": ["Quinoa", "Black Beans", "Corn", "Avocado"],
+    "weight": 400,
+    "calories": 520,
+    "protein": 20,
+    "fat": 18,
+    "carbs": 60,
+    "tags": ["vegetarian", "high-fiber"]
+  },
+  {
+    "dish_name": "Tofu Stir Fry",
+    "ingredients": ["Tofu", "Broccoli", "Bell Peppers", "Soy Sauce"],
+    "weight": 380,
+    "calories": 430,
+    "protein": 28,
+    "fat": 14,
+    "carbs": 45,
+    "tags": ["vegetarian", "low-sugar"]
+  },
+  {
+    "dish_name": "Oatmeal with Berries",
+    "ingredients": ["Rolled Oats", "Blueberries", "Almond Milk", "Chia Seeds"],
+    "weight": 300,
+    "calories": 380,
+    "protein": 12,
+    "fat": 10,
+    "carbs": 55,
+    "tags": ["vegetarian", "high-fiber"]
+  },
+  {
+    "dish_name": "Turkey Sandwich",
+    "ingredients": ["Whole Grain Bread", "Turkey Breast", "Lettuce", "Mustard"],
+    "weight": 320,
+    "calories": 450,
+    "protein": 32,
+    "fat": 11,
+    "carbs": 50,
+    "tags": ["low-sugar", "high-protein"]
+  },
+  {
+    "dish_name": "Lentil Soup",
+    "ingredients": ["Lentils", "Carrots", "Celery", "Vegetable Broth"],
+    "weight": 400,
+    "calories": 360,
+    "protein": 22,
+    "fat": 8,
+    "carbs": 50,
+    "tags": ["vegetarian", "low-fat"]
+  },
+  {
+    "dish_name": "Salmon with Asparagus",
+    "ingredients": ["Salmon", "Asparagus", "Lemon", "Olive Oil"],
+    "weight": 350,
+    "calories": 510,
+    "protein": 40,
+    "fat": 22,
+    "carbs": 18,
+    "tags": ["high-protein", "low-carb"]
+  },
+  {
+    "dish_name": "Greek Yogurt Parfait",
+    "ingredients": ["Greek Yogurt", "Granola", "Strawberries", "Honey"],
+    "weight": 250,
+    "calories": 320,
+    "protein": 18,
+    "fat": 9,
+    "carbs": 45,
+    "tags": ["vegetarian", "high-protein"]
+  },
+  {
+    "dish_name": "Veggie Omelette",
+    "ingredients": ["Eggs", "Spinach", "Mushrooms", "Bell Peppers"],
+    "weight": 280,
+    "calories": 350,
+    "protein": 24,
+    "fat": 22,
+    "carbs": 12,
+    "tags": ["vegetarian", "low-carb"]
+  },
+  {
+    "dish_name": "Shrimp Brown Rice",
+    "ingredients": ["Shrimp", "Brown Rice", "Snow Peas", "Garlic"],
+    "weight": 360,
+    "calories": 480,
+    "protein": 35,
+    "fat": 10,
+    "carbs": 55,
+    "tags": ["low-fat", "high-protein"]
+  },
+  {
+    "dish_name": "Tempeh Power Bowl",
+    "ingredients": ["Tempeh", "Kale", "Quinoa", "Tahini"],
+    "weight": 380,
+    "calories": 520,
+    "protein": 42,
+    "fat": 18,
+    "carbs": 50,
+    "tags": ["vegetarian", "high-protein"]
+  },
+  {
+    "dish_name": "Green Protein Smoothie",
+    "ingredients": ["Pea Protein", "Spinach", "Banana", "Almond Milk"],
+    "weight": 300,
+    "calories": 390,
+    "protein": 38,
+    "fat": 9,
+    "carbs": 45,
+    "tags": ["vegetarian", "low-sugar", "high-protein"]
+  }
+]

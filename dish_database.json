@@ -1,0 +1,102 @@
+[
+  {
+    "dish_name": "Grilled Chicken Salad",
+    "ingredients": ["Chicken Breast", "Mixed Greens", "Cherry Tomatoes", "Olive Oil"],
+    "serving_size": 350,
+    "calories": 420,
+    "protein": 38,
+    "fat": 18,
+    "carbs": 28,
+    "tags": ["High-Protein", "Low-Carb"]
+  },
+  {
+    "dish_name": "Quinoa and Black Bean Bowl",
+    "ingredients": ["Quinoa", "Black Beans", "Bell Peppers", "Corn", "Avocado"],
+    "serving_size": 400,
+    "calories": 520,
+    "protein": 20,
+    "fat": 16,
+    "carbs": 70,
+    "tags": ["Vegetarian", "High-Fiber"]
+  },
+  {
+    "dish_name": "Salmon with Roasted Vegetables",
+    "ingredients": ["Salmon Fillet", "Broccoli", "Carrots", "Sweet Potatoes"],
+    "serving_size": 380,
+    "calories": 560,
+    "protein": 42,
+    "fat": 24,
+    "carbs": 38,
+    "tags": ["High-Protein", "Gluten-Free"]
+  },
+  {
+    "dish_name": "Greek Yogurt Parfait",
+    "ingredients": ["Greek Yogurt", "Mixed Berries", "Granola", "Honey"],
+    "serving_size": 250,
+    "calories": 310,
+    "protein": 20,
+    "fat": 8,
+    "carbs": 44,
+    "tags": ["Vegetarian", "Low-Fat"]
+  },
+  {
+    "dish_name": "Tofu Stir-Fry",
+    "ingredients": ["Firm Tofu", "Brown Rice", "Snap Peas", "Soy Sauce", "Sesame Oil"],
+    "serving_size": 420,
+    "calories": 480,
+    "protein": 28,
+    "fat": 18,
+    "carbs": 58,
+    "tags": ["Vegetarian", "High-Protein"]
+  },
+  {
+    "dish_name": "Turkey and Sweet Potato Hash",
+    "ingredients": ["Ground Turkey", "Sweet Potatoes", "Onions", "Bell Peppers"],
+    "serving_size": 360,
+    "calories": 450,
+    "protein": 35,
+    "fat": 14,
+    "carbs": 46,
+    "tags": ["High-Protein", "Gluten-Free"]
+  },
+  {
+    "dish_name": "Veggie Omelette",
+    "ingredients": ["Eggs", "Spinach", "Mushrooms", "Feta Cheese"],
+    "serving_size": 280,
+    "calories": 330,
+    "protein": 24,
+    "fat": 22,
+    "carbs": 8,
+    "tags": ["Vegetarian", "Low-Carb"]
+  },
+  {
+    "dish_name": "Shrimp Brown Rice Bowl",
+    "ingredients": ["Shrimp", "Brown Rice", "Edamame", "Ginger", "Soy Sauce"],
+    "serving_size": 360,
+    "calories": 500,
+    "protein": 32,
+    "fat": 10,
+    "carbs": 72,
+    "tags": ["High-Protein", "Low-Fat"]
+  },
+  {
+    "dish_name": "Lentil Soup",
+    "ingredients": ["Lentils", "Carrots", "Celery", "Vegetable Broth"],
+    "serving_size": 320,
+    "calories": 350,
+    "protein": 22,
+    "fat": 6,
+    "carbs": 52,
+    "tags": ["Vegetarian", "Low-Fat", "High-Fiber"]
+  },
+  {
+    "dish_name": "Baked Cod with Quinoa",
+    "ingredients": ["Cod Fillet", "Quinoa", "Spinach", "Lemon"],
+    "serving_size": 340,
+    "calories": 420,
+    "protein": 36,
+    "fat": 12,
+    "carbs": 40,
+    "tags": ["High-Protein", "Low-Fat"]
+  }
+]

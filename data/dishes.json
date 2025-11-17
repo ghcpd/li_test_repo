@@ -1,0 +1,102 @@
+[
+  {
+    "dish_name": "Grilled Chicken Salad",
+    "ingredients": ["Chicken Breast", "Mixed Greens", "Tomatoes", "Olive Oil"],
+    "weight": 350,
+    "calories": 420,
+    "protein": 45,
+    "fat": 18,
+    "carbs": 20,
+    "tags": ["low-salt"]
+  },
+  {
+    "dish_name": "Quinoa Veggie Bowl",
+    "ingredients": ["Quinoa", "Chickpeas", "Spinach", "Bell Peppers"],
+    "weight": 400,
+    "calories": 520,
+    "protein": 22,
+    "fat": 16,
+    "carbs": 65,
+    "tags": ["vegetarian"]
+  },
+  {
+    "dish_name": "Baked Salmon with Brown Rice",
+    "ingredients": ["Salmon", "Brown Rice", "Asparagus"],
+    "weight": 380,
+    "calories": 610,
+    "protein": 48,
+    "fat": 28,
+    "carbs": 45,
+    "tags": ["low-sugar"]
+  },
+  {
+    "dish_name": "Greek Yogurt Parfait",
+    "ingredients": ["Greek Yogurt", "Berries", "Granola"],
+    "weight": 250,
+    "calories": 310,
+    "protein": 20,
+    "fat": 8,
+    "carbs": 40,
+    "tags": ["vegetarian"]
+  },
+  {
+    "dish_name": "Lentil Soup",
+    "ingredients": ["Lentils", "Carrots", "Celery", "Tomatoes"],
+    "weight": 300,
+    "calories": 280,
+    "protein": 18,
+    "fat": 6,
+    "carbs": 40,
+    "tags": ["vegetarian", "low-salt"]
+  },
+  {
+    "dish_name": "Tofu Stir Fry",
+    "ingredients": ["Tofu", "Broccoli", "Peppers", "Soy Sauce"],
+    "weight": 360,
+    "calories": 430,
+    "protein": 28,
+    "fat": 15,
+    "carbs": 45,
+    "tags": ["vegetarian"]
+  },
+  {
+    "dish_name": "Turkey and Avocado Wrap",
+    "ingredients": ["Turkey", "Whole Wheat Tortilla", "Avocado", "Lettuce"],
+    "weight": 320,
+    "calories": 470,
+    "protein": 32,
+    "fat": 18,
+    "carbs": 40,
+    "tags": ["low-sugar"]
+  },
+  {
+    "dish_name": "Veggie Omelette",
+    "ingredients": ["Eggs", "Spinach", "Mushrooms", "Cheese"],
+    "weight": 280,
+    "calories": 360,
+    "protein": 24,
+    "fat": 24,
+    "carbs": 6,
+    "tags": ["vegetarian"]
+  },
+  {
+    "dish_name": "Avocado Toast",
+    "ingredients": ["Whole Grain Bread", "Avocado", "Egg"],
+    "weight": 220,
+    "calories": 340,
+    "protein": 14,
+    "fat": 20,
+    "carbs": 32,
+    "tags": ["vegetarian"]
+  },
+  {
+    "dish_name": "Black Bean Chili",
+    "ingredients": ["Black Beans", "Tomatoes", "Peppers", "Onions"],
+    "weight": 360,
+    "calories": 390,
+    "protein": 22,
+    "fat": 12,
+    "carbs": 50,
+    "tags": ["vegetarian", "low-salt"]
+  }
+]

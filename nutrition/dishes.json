@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Grilled Chicken Quinoa Bowl",
+    "ingredients": ["Chicken breast", "Quinoa", "Spinach", "Cherry tomatoes"],
+    "weight": 360,
+    "calories": 520,
+    "protein": 47,
+    "fat": 16,
+    "carbs": 48,
+    "tags": ["High-Protein", "Gluten-Free"]
+  },
+  {
+    "name": "Salmon with Roasted Vegetables",
+    "ingredients": ["Salmon fillet", "Broccoli", "Carrots", "Olive oil"],
+    "weight": 330,
+    "calories": 510,
+    "protein": 40,
+    "fat": 22,
+    "carbs": 35,
+    "tags": ["Pescatarian", "Low-Sugar"]
+  },
+  {
+    "name": "Chickpea and Spinach Curry",
+    "ingredients": ["Chickpeas", "Spinach", "Tomatoes", "Coconut milk"],
+    "weight": 340,
+    "calories": 450,
+    "protein": 22,
+    "fat": 14,
+    "carbs": 58,
+    "tags": ["Vegetarian", "Gluten-Free"]
+  },
+  {
+    "name": "Tofu Stir Fry",
+    "ingredients": ["Tofu", "Bell peppers", "Brown rice", "Sesame oil"],
+    "weight": 380,
+    "calories": 480,
+    "protein": 28,
+    "fat": 18,
+    "carbs": 55,
+    "tags": ["Vegetarian", "Low-Salt"]
+  },
+  {
+    "name": "Turkey and Sweet Potato Hash",
+    "ingredients": ["Ground turkey", "Sweet potato", "Onion", "Kale"],
+    "weight": 350,
+    "calories": 470,
+    "protein": 38,
+    "fat": 12,
+    "carbs": 52,
+    "tags": ["High-Protein", "Low-Sugar"]
+  },
+  {
+    "name": "Greek Yogurt Parfait",
+    "ingredients": ["Greek yogurt", "Berries", "Granola", "Honey"],
+    "weight": 250,
+    "calories": 320,
+    "protein": 20,
+    "fat": 9,
+    "carbs": 42,
+    "tags": ["Vegetarian", "Low-Salt"]
+  },
+  {
+    "name": "Steak with Brown Rice",
+    "ingredients": ["Sirloin steak", "Brown rice", "Green beans", "Garlic"],
+    "weight": 400,
+    "calories": 590,
+    "protein": 45,
+    "fat": 20,
+    "carbs": 52,
+    "tags": ["High-Protein"]
+  },
+  {
+    "name": "Lentil Soup",
+    "ingredients": ["Lentils", "Carrots", "Celery", "Vegetable broth"],
+    "weight": 320,
+    "calories": 360,
+    "protein": 24,
+    "fat": 6,
+    "carbs": 54,
+    "tags": ["Vegetarian", "Low-Salt", "Low-Sugar"]
+  },
+  {
+    "name": "Shrimp Pasta Primavera",
+    "ingredients": ["Shrimp", "Whole-wheat pasta", "Zucchini", "Parmesan"],
+    "weight": 370,
+    "calories": 540,
+    "protein": 36,
+    "fat": 17,
+    "carbs": 60,
+    "tags": ["Pescatarian"]
+  },
+  {
+    "name": "Veggie Omelette",
+    "ingredients": ["Eggs", "Mushrooms", "Spinach", "Bell peppers"],
+    "weight": 280,
+    "calories": 310,
+    "protein": 21,
+    "fat": 18,
+    "carbs": 12,
+    "tags": ["Vegetarian", "Gluten-Free", "Low-Sugar"]
+  },
+  {
+    "name": "Baked Cod with Asparagus",
+    "ingredients": ["Cod", "Asparagus", "Lemon", "Olive oil"],
+    "weight": 300,
+    "calories": 400,
+    "protein": 34,
+    "fat": 13,
+    "carbs": 28,
+    "tags": ["Pescatarian", "Low-Salt"]
+  },
+  {
+    "name": "Quinoa Black Bean Salad",
+    "ingredients": ["Quinoa", "Black beans", "Corn", "Lime"],
+    "weight": 340,
+    "calories": 430,
+    "protein": 20,
+    "fat": 11,
+    "carbs": 62,
+    "tags": ["Vegetarian", "Gluten-Free", "Low-Salt"]
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "dish_name": "Grilled Chicken Breast",
+    "ingredients": ["Chicken breast", "Olive oil", "Salt", "Pepper"],
+    "weight": 150,
+    "calories": 165,
+    "protein": 31,
+    "fat": 3.6,
+    "carbs": 0,
+    "tags": ["High-protein", "Low-carb"]
+  },
+  {
+    "dish_name": "Brown Rice",
+    "ingredients": ["Brown rice", "Water"],
+    "weight": 195,
+    "calories": 216,
+    "protein": 5,
+    "fat": 1.8,
+    "carbs": 45,
+    "tags": ["Whole-grain", "Vegetarian"]
+  },
+  {
+    "dish_name": "Steamed Broccoli",
+    "ingredients": ["Broccoli", "Water", "Salt"],
+    "weight": 156,
+    "calories": 55,
+    "protein": 3.7,
+    "fat": 0.6,
+    "carbs": 11,
+    "tags": ["Vegetarian", "Low-calorie", "High-fiber"]
+  },
+  {
+    "dish_name": "Greek Yogurt",
+    "ingredients": ["Greek yogurt"],
+    "weight": 170,
+    "calories": 100,
+    "protein": 17,
+    "fat": 0.7,
+    "carbs": 7,
+    "tags": ["High-protein", "Low-fat", "Vegetarian"]
+  },
+  {
+    "dish_name": "Salmon Fillet",
+    "ingredients": ["Salmon", "Lemon", "Herbs"],
+    "weight": 150,
+    "calories": 280,
+    "protein": 25,
+    "fat": 20,
+    "carbs": 0,
+    "tags": ["High-protein", "Omega-3", "Low-carb"]
+  },
+  {
+    "dish_name": "Quinoa Salad",
+    "ingredients": ["Quinoa", "Tomatoes", "Cucumber", "Olive oil", "Lemon"],
+    "weight": 200,
+    "calories": 220,
+    "protein": 8,
+    "fat": 6,
+    "carbs": 35,
+    "tags": ["Vegetarian", "High-fiber", "Whole-grain"]
+  },
+  {
+    "dish_name": "Scrambled Eggs",
+    "ingredients": ["Eggs", "Milk", "Butter", "Salt"],
+    "weight": 120,
+    "calories": 200,
+    "protein": 14,
+    "fat": 15,
+    "carbs": 2,
+    "tags": ["High-protein", "Vegetarian"]
+  },
+  {
+    "dish_name": "Sweet Potato",
+    "ingredients": ["Sweet potato"],
+    "weight": 150,
+    "calories": 130,
+    "protein": 2,
+    "fat": 0.2,
+    "carbs": 30,
+    "tags": ["Vegetarian", "High-fiber", "Complex-carb"]
+  },
+  {
+    "dish_name": "Spinach Salad",
+    "ingredients": ["Spinach", "Olive oil", "Vinegar", "Tomatoes"],
+    "weight": 100,
+    "calories": 50,
+    "protein": 3,
+    "fat": 2,
+    "carbs": 7,
+    "tags": ["Vegetarian", "Low-calorie", "Low-salt"]
+  },
+  {
+    "dish_name": "Turkey Sandwich",
+    "ingredients": ["Whole wheat bread", "Turkey breast", "Lettuce", "Tomato", "Mustard"],
+    "weight": 200,
+    "calories": 320,
+    "protein": 28,
+    "fat": 7,
+    "carbs": 38,
+    "tags": ["High-protein", "Whole-grain"]
+  },
+  {
+    "dish_name": "Oatmeal",
+    "ingredients": ["Oats", "Water", "Berries", "Honey"],
+    "weight": 250,
+    "calories": 180,
+    "protein": 6,
+    "fat": 3,
+    "carbs": 32,
+    "tags": ["Vegetarian", "High-fiber", "Whole-grain"]
+  },
+  {
+    "dish_name": "Tofu Stir-fry",
+    "ingredients": ["Tofu", "Mixed vegetables", "Soy sauce", "Ginger", "Garlic"],
+    "weight": 250,
+    "calories": 200,
+    "protein": 15,
+    "fat": 10,
+    "carbs": 15,
+    "tags": ["Vegetarian", "High-protein", "Low-sugar"]
+  },
+  {
+    "dish_name": "Fruit Smoothie",
+    "ingredients": ["Banana", "Strawberries", "Milk", "Protein powder"],
+    "weight": 300,
+    "calories": 250,
+    "protein": 20,
+    "fat": 3,
+    "carbs": 40,
+    "tags": ["High-protein", "Vegetarian"]
+  },
+  {
+    "dish_name": "Lentil Soup",
+    "ingredients": ["Lentils", "Carrots", "Celery", "Onion", "Vegetable broth"],
+    "weight": 300,
+    "calories": 230,
+    "protein": 18,
+    "fat": 1,
+    "carbs": 40,
+    "tags": ["Vegetarian", "High-protein", "High-fiber", "Low-fat"]
+  },
+  {
+    "dish_name": "Beef Steak",
+    "ingredients": ["Beef sirloin", "Salt", "Pepper", "Butter"],
+    "weight": 150,
+    "calories": 330,
+    "protein": 35,
+    "fat": 20,
+    "carbs": 0,
+    "tags": ["High-protein", "Low-carb"]
+  },
+  {
+    "dish_name": "Mixed Nuts",
+    "ingredients": ["Almonds", "Walnuts", "Cashews"],
+    "weight": 30,
+    "calories": 180,
+    "protein": 6,
+    "fat": 16,
+    "carbs": 6,
+    "tags": ["Vegetarian", "High-fat", "Low-sugar"]
+  },
+  {
+    "dish_name": "Cottage Cheese",
+    "ingredients": ["Cottage cheese"],
+    "weight": 120,
+    "calories": 98,
+    "protein": 14,
+    "fat": 2,
+    "carbs": 6,
+    "tags": ["High-protein", "Low-fat", "Vegetarian"]
+  },
+  {
+    "dish_name": "Vegetable Soup",
+    "ingredients": ["Mixed vegetables", "Vegetable broth", "Herbs"],
+    "weight": 300,
+    "calories": 80,
+    "protein": 3,
+    "fat": 0.5,
+    "carbs": 18,
+    "tags": ["Vegetarian", "Low-calorie", "Low-fat", "Low-salt"]
+  },
+  {
+    "dish_name": "Pasta Primavera",
+    "ingredients": ["Whole wheat pasta", "Mixed vegetables", "Olive oil", "Parmesan"],
+    "weight": 280,
+    "calories": 380,
+    "protein": 14,
+    "fat": 10,
+    "carbs": 60,
+    "tags": ["Vegetarian", "Whole-grain"]
+  },
+  {
+    "dish_name": "Apple with Peanut Butter",
+    "ingredients": ["Apple", "Peanut butter"],
+    "weight": 150,
+    "calories": 220,
+    "protein": 7,
+    "fat": 12,
+    "carbs": 25,
+    "tags": ["Vegetarian", "High-fiber"]
+  }
+]

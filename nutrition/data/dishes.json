@@ -1,0 +1,82 @@
+[
+  {
+    "dish_name": "Oatmeal with Berries",
+    "ingredients": ["oats", "almond milk", "mixed berries", "chia seeds"],
+    "weight": 320,
+    "calories": 350,
+    "protein": 12,
+    "fat": 7,
+    "carbs": 58,
+    "tags": ["vegetarian", "low-salt"]
+  },
+  {
+    "dish_name": "Grilled Chicken Salad",
+    "ingredients": ["chicken breast", "spinach", "tomatoes", "olive oil"],
+    "weight": 280,
+    "calories": 420,
+    "protein": 40,
+    "fat": 18,
+    "carbs": 20,
+    "tags": ["low-sugar"]
+  },
+  {
+    "dish_name": "Quinoa and Black Bean Bowl",
+    "ingredients": ["quinoa", "black beans", "corn", "peppers"],
+    "weight": 300,
+    "calories": 430,
+    "protein": 18,
+    "fat": 10,
+    "carbs": 68,
+    "tags": ["vegetarian", "low-salt"]
+  },
+  {
+    "dish_name": "Salmon with Sweet Potato",
+    "ingredients": ["salmon", "sweet potato", "asparagus"],
+    "weight": 320,
+    "calories": 520,
+    "protein": 35,
+    "fat": 22,
+    "carbs": 45,
+    "tags": ["low-sugar"]
+  },
+  {
+    "dish_name": "Tofu Stir Fry",
+    "ingredients": ["tofu", "broccoli", "carrots", "soy sauce"],
+    "weight": 310,
+    "calories": 390,
+    "protein": 20,
+    "fat": 12,
+    "carbs": 50,
+    "tags": ["vegetarian"]
+  },
+  {
+    "dish_name": "Greek Yogurt Parfait",
+    "ingredients": ["greek yogurt", "granola", "berries", "honey"],
+    "weight": 250,
+    "calories": 300,
+    "protein": 18,
+    "fat": 9,
+    "carbs": 40,
+    "tags": ["vegetarian", "low-salt"]
+  },
+  {
+    "dish_name": "Turkey Wrap",
+    "ingredients": ["whole wheat tortilla", "turkey", "lettuce", "mustard"],
+    "weight": 280,
+    "calories": 360,
+    "protein": 28,
+    "fat": 11,
+    "carbs": 38,
+    "tags": ["low-sugar"]
+  },
+  {
+    "dish_name": "Lentil Soup",
+    "ingredients": ["lentils", "vegetable broth", "carrots", "celery"],
+    "weight": 330,
+    "calories": 310,
+    "protein": 19,
+    "fat": 6,
+    "carbs": 48,
+    "tags": ["vegetarian", "low-fat", "low-salt"]
+  }
+]

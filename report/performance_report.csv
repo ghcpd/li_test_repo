@@ -1,4 +1,0 @@
-Algorithm,Conflicts Detected,Execution Time (ms),Memory Usage (MB),Precision,Recall,F1 Score
-Brute Force,3766,152.58,1.99,0.3717,0.8895,0.5243
-Sweep Line,3766,63.73,2.06,0.3717,0.8895,0.5243
-Interval Tree,3766,471.61,2.05,0.3717,0.8895,0.5243

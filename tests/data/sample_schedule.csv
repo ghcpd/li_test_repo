@@ -1,0 +1,6 @@
+person_id,start_time,end_time,activity_name,location,scenario
+A,2025-01-01 09:00,2025-01-01 10:00,Planning,Room 1,scenario
+A,2025-01-01 09:30,2025-01-01 10:30,Training,Room 1,scenario
+A,2025-01-01 11:00,2025-01-01 12:00,Review,Room 2,scenario
+B,2025-01-01 13:00,2025-01-01 14:00,Workshop,Room 3,scenario
+B,2025-01-01 13:30,2025-01-01 14:30,Support,Room 3,scenario
